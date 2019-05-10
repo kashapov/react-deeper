@@ -3,6 +3,8 @@ import React from 'react';
 import classes from './Person.css';
 
 const person = ( props ) => {
+    console.log("[Person.js] rendering...");
+    
     const rnd = Math.random();
 
     if ( rnd > 0.9 ) {
